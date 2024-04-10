@@ -84,4 +84,12 @@ public class TestCaseService {
 	private void saveJsonList(List<TestDto> jsonList) {
 		testDtoRepository.saveAll(jsonList);
 	}
+	
+	public void testCaseThree(){
+		System.out.println("ssss");
+		for (int i=1;i<100;i++) {
+			System.out.println(i);
+		}
+		System.out.println("ssaaass");
+	}
 }

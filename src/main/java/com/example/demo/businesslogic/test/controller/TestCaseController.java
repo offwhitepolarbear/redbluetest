@@ -32,9 +32,9 @@ public class TestCaseController {
 		
 	}
 
-	
+	@RequestMapping("/testThree")
 	public void testCaseFour() {
-		
+		testCaseService.testCaseThree();
 	}
 
 }
